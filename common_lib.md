@@ -89,3 +89,15 @@ char *strerror(int errnum);
 set the front n char of string to char<br/>
 char *strnset(char *str, char ch, unsigned n);
 ### strupr
+4 netdb.h
+=====
+for linux and unix, the net of the struct、macro、function。
+5 sys/types.h
+=====
+The basic data type,ex. clock_t fd_set dev_t fpos_t pid_t size_t uid_t。
+6 netinet/in.h
+=====
+internat address family
+7 sys/socket.h
+=====
+internat protocal family
