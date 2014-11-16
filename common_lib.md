@@ -52,53 +52,40 @@ define the const of error
 4 string.h
 =====
 the functions related string
-strcpy
-#####
+### strcpy
 copy source string to destin string<br/>
 char *strcpy(char *destin, char *source);
-strncpy
-#####
+### strncpy
 copy the n chars of source string to destin string<br/>
 char *strncpy(char *dest, char *src,size_tn);
-strcat
-#####
+### strcat
 A string concatenation to another string<br/>
 char *strcat(char *destin, char *source);
-strchr
-#####
+### strchr
 find the char of first index in string<br/>
 char *strchr(char *str, char c);
-strcmp
-#####
+### strcmp
 compare string by ascii<br/>
 int strcmp(char *str1, char *str2);
-stricmp
-#####
+### stricmp
 compare string without Case sensitive<br/>
 int stricmp(char *str1, char *str2);
-strnicmp
-#####
+### strnicmp
 compare the part of a string and another string without Case sensitive<br/>
 int strnicmp(char *str1, char *str2, unsigned maxlen);
-strlen
-#####
+### strlen
 get the length of string<br/>
 size_t strlen(const char *s);
-strcspn
-#####
+### strcspn
 get one string of first index in another string<br/>
 int strcspn(char *str1, char *str2);
-strdup
-#####
+### strdup
 duplicate then string to new one<br/>
 char *strdup(char *str);
-strerror
-#####
+### strerror
 get error message related errno<br/>
 char *strerror(int errnum);
-strnset
-#####
+### strnset
 set the front n char of string to char<br/>
 char *strnset(char *str, char ch, unsigned n);
-strupr
-#####
+### strupr
