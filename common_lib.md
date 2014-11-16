@@ -40,3 +40,6 @@ getenv putenv
 类型转化
 -----
 labs atof atoi atol ecvt fcvt
+3 errno.h
+=====
+define the const of error
