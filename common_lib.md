@@ -48,3 +48,6 @@ labs atof atoi atol ecvt fcvt
 3 errno.h
 =====
 define the const of error
+4 string.h
+=====
+the functions related string
