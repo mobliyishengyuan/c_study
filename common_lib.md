@@ -22,3 +22,21 @@ feof ferror
 文件操作
 -----
 remove rename tmpfile
+2 stdlib.h
+=====
+standard library
+内存操作
+-----
+calloc malloc free realloc 
+随机数
+-----
+rand srand
+系统相关
+-----
+exit abort system 
+环境变量
+-----
+getenv putenv
+类型转化
+-----
+labs atof atoi atol ecvt fcvt
