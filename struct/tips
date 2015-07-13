@@ -1,0 +1,19 @@
+1 冒号
+typedef struct
+{
+unsigned char unused_bits:4;
+unsigned char wchair_state:2;
+} xyz;
+ 
+typedef struct
+{
+unsigned char unused_bits;
+unsigned char wchair_state;
+} abc;
+
+上面的xyz和abc有什么区别？
+Xyz占了1 Byte，abc占了2 byte。冒号后表示位域，即该变量存储时占用的位数。
+ 
+有些信息在存储时，并不需要占用一个完整的字节，   而只需占几个或一个二进制位。例如在存放一个开关量时，只有0和1   两种状态，   用一位二进位即可。为了节省存储空间，并使处理简便，C语言又提供了一种数据结构，称为"位域"或"位段"。所谓"位域"是把一个字节中的二进位划分为几个不同的区域，   并说明每个区域的位数。每个域有一个域名，允许在程序中按域名进行操作。   这样就可以把几个不同的对象用一个字节的二进制位域来表示。
+
+http://blog.sina.com.cn/s/blog_679f935601011vz5.html
